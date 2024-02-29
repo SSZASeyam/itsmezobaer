@@ -1,0 +1,142 @@
+@media (min-width: 1400px) {}
+@media (min-width: 1200px) and (max-width: 1399px) {}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .menu {
+        display: none;
+    }
+    .collapse_btn {
+        display: block;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .menu {
+        display: none;
+    }
+    .collapse_btn {
+        display: block;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .menu {
+        display: none;
+    }
+    .collapse_btn {
+        display: block;
+    }
+
+    .home_con h1 {
+        font-size: 50px;
+    }
+    .right_position ul {
+        rotate: 0deg;
+    }
+    .right_position {
+        left: 50%;
+        top: unset;
+        translate: -50% 0%;
+        bottom: 0;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .menu {
+        display: none;
+    }
+    .collapse_btn {
+        display: block;
+    }
+
+    .home_con h1 {
+        font-size: 50px;
+    }
+    .right_position ul {
+        rotate: 0deg;
+        display:block ;
+    }
+    .right_position {
+        left: 50%;
+        top: unset;
+        translate: -50% 0%;
+        bottom: 0;
+    }
+    .home_btn a{
+        margin: 5px 10px;
+    }
+    .home_btn {
+        padding-top: unset;
+    }
+    .why_head{
+        width: 250px;
+    }
+    .why_head h4{
+        font-size:20px;
+        width: 300px;
+        padding: 0px 5px; 
+
+    }
+    .why_head p {
+        font-size: 15px;
+    }
+    .why_con_main {
+        display: block;
+        
+    }
+
+    .why_con{
+        margin: 10px 10px;
+    }
+     .about_con_main{
+        display: block;
+
+     }
+     .about_con h3 {
+        font-size: 15px;
+        display: inline;
+     
+    
+    }
+    .about_shrt_info  li:nth-child(odd) {
+        font-size: 12px;
+        color: #222;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-top: 10px;
+    }
+    .about_shrt_info  li:nth-child(even) {
+        font-size: 14px;
+        color: #615879;
+    }
+
+     .about_img {
+        width: 50%;
+        height: 170px;
+        background-size: 50% auto, 80% auto;
+        background-position: bottom left, top right;
+        }
+    .home_btn a {
+        padding: 5px 10px;
+        }
+    
+    .about_con h5{
+        font-size: 12px;
+    }
+
+    .progress_con h5 {
+        font-size: 12px;
+        } 
+
+    .progress_con p{
+        font-size: 15px;
+    }
+    .faq_question:has(input:checked) {
+        max-height: fit-content;
+        transition-delay: .5s;
+    }
+
+}
